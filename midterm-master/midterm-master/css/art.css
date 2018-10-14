@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEAE5;
+    padding: 20px;
+    font-family: Arial;
+} 
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #026670;
+width:100vw;
+}
+ul.nav li {float: right;}
+ul.nav li a {
+    display: block;
+    color: #EDEAE5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.nav li a:hover: {color: #FEF9C7;}
+ul.nav li a.active {background-color: #4CAF50;}
+ul.nav li.left {float: left;}
+.two-columns{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.column1{
+    width: 60%;
+}
+.two-columns div{
+    background-color: white;
+      margin-right: 45px;
+       box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+}
+.hero-image-food {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url('file:///C:/Users/User/Desktop/midterm-master/midterm-master/img/food.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-text-food {
+background-color: rgba(255, 34, 44, 0.3);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
