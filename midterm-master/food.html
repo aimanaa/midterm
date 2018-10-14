@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/art.css">
+
+	<title>Art</title>
+</head>
+<body>
+	<header  class="header">
+	<ul class="nav"> 
+		<li class="left"><a href="#">Logo</a></li>
+		<li><a href="#">Contacts</a></li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Home</a></li>
+    </ul> 
+	</header>
+
+	<section class="hero">
+	<div class="hero-image">
+  <div class="hero-text">
+
+  </div>
+</div>
+</section>
+<h1 style="text-align: center">The Hottest Restaurants in Seattle, October 2018</h1>
+<div class="two-columns">
+	<div class="column1">
+		
+
+<h4>Magnuson Cafe and Brewery</h4>
+		<p>With its prime location — a well-preserved former munitions building with a massive patio overlooking the water in underserved Magnuson Park — this brewpub sibling to SLU’s Dexter Brewhouse and Mollusk Brewing could have phoned it in, but instead the selection of classic pub grub is finely tuned, from the succulent smoked and fried wings to the seasonal salads stuffed with kale, strawberries, and chevre. And underappreciated Mollusk has no learning curve, so the draft list is on point, crisp pilsners and out-there inventions alike — including Brunch Beer, an oddly successful boozy Orange Julius.
+
+</p>
+	</div>
+	<div class="column2">
+		<h4>Miri’s at Golden Gardens</h4>
+		<p>It might not become a rainy-day staple, but Miri’s, a seasonal snack stand from farmers’ market favorite Miri Plowman, is perfect for glorious beach days at Golden Gardens. Warm kebab sandwiches, picnic platters, acai bowls, and buttery poffertjes (mini Dutch pancakes) share menu space with slushies, cold brew coffee, and iced tea for anyone who prefers not to pack their own picnic.</p>
+	</div>
+</div>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

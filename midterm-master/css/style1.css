@@ -1,0 +1,26 @@
+.hero{
+   width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(file:///C:/Users/User/Desktop/midterm/img/food_img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.flextext{
+	display:flex;
+
+}
+.text{
+	flex: 40%;
+    padding: 10px;
+    height: 300px; 
+
+}
